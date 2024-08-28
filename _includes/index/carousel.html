@@ -5,7 +5,7 @@
     https://getbootstrap.com/docs/5.1/components/carousel/
 
 
-
+E.G --> {% include index/carousel.html title= "Locaciones destacadas" height=450 %}
     Options:
 
     - "height" - the height of the carousel in px, just give the number (optional, default 300)
@@ -17,7 +17,7 @@
     
 {%- endcomment -%}
 
-{% include index/carousel.html title="Locaciones destacadas" height=450 %}
+
 
 {%- assign image-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp: "item","item.format contains 'image'" -%}
 {%- assign youtube-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp: "item","item.youtubeid" -%}
@@ -30,7 +30,7 @@
 {% endif %}
 
 {%- assign carousel-max = include.max | default: 9 -%}
-{%- assign btn-color = include.btn-color | default: "primary" -%}
+{%- assign btn-color = include.btn-color | default: "Locaciones destacadas" -%}
 {%- assign btn-text = include.btn-text | default: "Ver locación" -%}
 
 {%- comment -%}
