@@ -4,7 +4,7 @@
     This include adds a Bootstrap Carousel component populated with randomly selected image items, designed with index page in mind. 
     https://getbootstrap.com/docs/5.1/components/carousel/
 
-    E.G. --> {% include index/carousel.html title="Locaciones destacadas" height=450 %}
+
 
     Options:
 
@@ -16,6 +16,8 @@
     - "btn-text" - the label used in the link btn to view the carousel item (optional, default "Ver locación")
     
 {%- endcomment -%}
+
+{% include index/carousel.html title="Locaciones destacadas" height=450 %}
 
 {%- assign image-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp: "item","item.format contains 'image'" -%}
 {%- assign youtube-items = site.data[site.metadata ] | where_exp: 'item', 'item.objectid' | where_exp: "item","item.youtubeid" -%}
