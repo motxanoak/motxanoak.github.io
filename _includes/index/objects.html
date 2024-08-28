@@ -2,7 +2,7 @@
 {%- assign types = "image;audio;video;pdf;record;compound_object;multiple" | split: ";" -%}
 <div class="card mb-3" >
     <div class="card-body">
-        <h5 class="card-title">elementos de la colección</h5>
+        <h5 class="card-title">Lista de elementos</h5>
         <p class="card-text">
             {% for t in types %}
             {%- assign count = formats | where_exp: 'item','item contains t' | size -%}
@@ -28,7 +28,7 @@
             {% endcase %}
             {% endif %}
             {%- endfor -%}
-            <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ '/data.html' | relative_url }}">View table</a>
+            <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ '/data.html' | relative_url }}">Ver tabla de datos</a>
         </p>
     </div>
 </div>
