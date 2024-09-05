@@ -1,5 +1,5 @@
 ---
-title: Subjects
+title: Zonas y localidades
 layout: cloud
 permalink: /subjects.html
 # Default subject page is configured in "_data/theme.yml"
@@ -8,7 +8,6 @@ permalink: /subjects.html
 cloud-fields: site.data.theme.subjects-fields
 ---
 
-## Browse Subjects
+## Zonas y localidades
 
-Use this word cloud visualization to browse terms and subjects.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Utilice esta visualización de nube de palabras para buscar las zonas y las localidades donde se han grabado películas. El tamaño de las palabras está determinado por la frecuencia, es decir, si la palabra es más grande, se grabaron más películas en dicha zona. Además, todas las palabras enlazan a una búsqueda de colección correspondiente.
