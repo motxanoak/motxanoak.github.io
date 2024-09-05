@@ -1,5 +1,5 @@
 ---
-title: Locations
+title: Ciudades
 layout: cloud
 permalink: /locations.html
 # Default locations page is configured in "_data/theme.yml"
@@ -8,7 +8,6 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Browse Locations
+## Ciudades en donde se han grabado películas
 
-Use this word cloud visualization to browse locations.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Utilice esta visualización de nube de palabras para buscar las ciudades en donde se han grabado película. El tamaño de las palabras está determinado por la frecuencia y todas las palabras enlazan a una búsqueda de colección correspondiente.
