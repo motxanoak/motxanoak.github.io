@@ -1,5 +1,5 @@
 ---
-title: About
+title: Acerca de la colección
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
@@ -8,11 +8,11 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/jumbotron.html objectid="objects/mapa.jpg" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="Acerca de la colección; Tutorial" %}
 
-## About the Collection
+## Acerca de la colección
 
 This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
 
