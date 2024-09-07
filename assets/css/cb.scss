@@ -32,5 +32,5 @@ $theme-colors: map-merge(
 
 @import "base", "pages", "custom";
 body {
-  background-color: $background-color; /* Variable obtenida de theme.yml */
+  background-color: #19FF00; /* Variable obtenida de theme.yml */
 }
