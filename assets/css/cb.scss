@@ -10,6 +10,8 @@ $base-font-family: {{ site.data.theme.base-font-family | default: '""' }};
 $base-font-size: {{ site.data.theme.base-font-size | default: '""' }};
 $text-color: {{ site.data.theme.text-color | default: '""' }};
 $link-color: {{ site.data.theme.link-color | default: '""' }};
+/* Agregado*/
+$background-color: {{ site.data.theme.background-color | default: 'green' }};
 
 /* theme colors pulled from config-theme-colors */
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %}
@@ -32,5 +34,5 @@ $theme-colors: map-merge(
 
 @import "base", "pages", "custom";
 body {
-  background-color: #19FF00; /* Variable obtenida de theme.yml */
+  background-color: $background-color; /* Variable obtenida de theme.yml */
 }
