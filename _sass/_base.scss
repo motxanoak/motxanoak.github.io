@@ -6,7 +6,6 @@ body {
     @if $base-font-family != "" { font-family: $base-font-family; }
     @if $base-font-size != "" { font-size: $base-font-size; }
     @if $text-color != "" { color: $text-color; }
-    background-color: {{ site.data.theme.background-color }};
 }
 a {
     /* remove link underline */ 
