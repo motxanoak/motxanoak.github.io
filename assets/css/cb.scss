@@ -11,7 +11,7 @@ $base-font-size: {{ site.data.theme.base-font-size | default: '""' }};
 $text-color: {{ site.data.theme.text-color | default: '""' }};
 $link-color: {{ site.data.theme.link-color | default: '""' }};
 /* Agregado*/
-$background-color: {{ site.data.theme.background-color | default: 'green' }};
+$background-color: {{ site.data.theme.background-color | default: '#34D095' }};
 
 /* theme colors pulled from config-theme-colors */
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %}
